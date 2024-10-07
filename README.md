@@ -1,7 +1,7 @@
 # Bank Account Transactions Microservice
 
 A Bank account transactions microservice with Spring Boot, Postgres as Database, and RabbitMQ for async communication.
-This microservice is responsible for creating user account and balances for provided currencies that are defined
+This microservice is responsible for creating user accounts and balances for provided currencies that are defined
 as an `enum`:
 
 ```java
@@ -37,7 +37,7 @@ All transactions will be executed with proper isolation level.
 
 ## How to deploy
 
-You need to have docker installed on your machine. you can easily deploy the service with executing
+You need to have docker installed on your machine. you can easily deploy the service by executing
 the following command in your bash terminal:
 
 ```bash
@@ -45,7 +45,7 @@ docker compose up
 ```
 
 It will create and start **database** and **message broker** services first and then it will create
-a container form the bank account microservice docker image and will bind port 8080 of the container for public use.
+a container form with the bank account microservice docker image and will bind port 8080 of the container for public use.
 
 ## How to use
 
