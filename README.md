@@ -57,7 +57,7 @@ Go to [OpenAPI](http://localhost:8080/swagger-ui/index.html) documents page and 
 
 ## How to Test
 
-The Main business logic is covered with testing to a good extent, but there are also rooms for improvement.
+The Main business logic is covered with testing to a good extent, but there is also room for improvement.
 
 ```bash
 ./gradlew test
